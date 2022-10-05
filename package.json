@@ -1,0 +1,52 @@
+{
+	"name": "sivtsov",
+	"version": "1.0.0",
+	"description": "",
+	"main": "gulpfile.js",
+	"type": "module",
+	"scripts": {
+		"dev": "gulp",
+		"build": "gulp build --build",
+		"zip": "gulp deployZIP --build",
+		"deploy": "gulp deployFTP --build",
+		"svgSprive": "gulp svgSpriteTask"
+	},
+	"author": "SIVTSOV",
+	"license": "ISC",
+	"dependencies": {
+		"gulp-cli": "^2.3.0"
+	},
+	"devDependencies": {
+		"browser-sync": "latest",
+		"del": "^6.0.0",
+		"gulp": "latest",
+		"gulp-autoprefixer": "^8.0.0",
+		"gulp-clean-css": "^4.3.0",
+		"gulp-file-include": "latest",
+		"gulp-fonter-fix": "latest",
+		"gulp-group-css-media-queries": "^1.2.2",
+		"gulp-if": "latest",
+		"gulp-imagemin": "latest",
+		"gulp-newer": "latest",
+		"gulp-notify": "latest",
+		"gulp-plumber": "latest",
+		"gulp-pug": "latest",
+		"gulp-rename": "latest",
+		"gulp-replace": "latest",
+		"gulp-sass": "^5.1.0",
+		"gulp-svg-sprite": "latest",
+		"gulp-ttf2woff2": "latest",
+		"gulp-util": "^3.0.8",
+		"gulp-version-number": "latest",
+		"gulp-webp": "latest",
+		"gulp-webp-html-nosvg": "latest",
+		"gulp-webpcss": "^1.1.1",
+		"gulp-zip": "^5.1.0",
+		"sass": "^1.51.0",
+		"swiper": "latest",
+		"vinyl-ftp": "^0.6.1",
+		"webp-converter": "2.2.3",
+		"webpack": "latest",
+		"webpack-stream": "latest"
+	}
+}
