@@ -1,0 +1,35 @@
+.offer {
+	padding: 140px 0;
+
+	@media(min-width: 30em){
+		padding: 100px 0;
+	}
+	.offer__container {
+		// .offer__title {
+			
+		// }
+
+		.offer__subtitle {
+			margin-top: 26px;
+		}
+
+		
+	}
+
+	.img-bg__container {
+
+		margin-top: 40px;
+		padding: 0;
+
+		.img-bg__img {
+			text-align: center;
+			width: 100%;
+			height: 400px;
+			object-fit: cover;	
+		}
+		
+		
+	}
+
+	
+}

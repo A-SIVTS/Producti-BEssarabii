@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('./html/head.html', {
+	'title': 'Каталог'
+})
+<body>
+	@@include('./html/modal-brk.html')
+	<div class="wrapper">
+		@@include('./html/header.html')
+
+	
+		<section class="offer-shop">
+			<div class="offer-shop__container">
+				<h2 class="offer-shop__title title">Каталог</h2>
+			</div>	
+		</section>
+
+		<section class="shop">
+			<div class="shop__container">
+
+				<div class="shop__info">
+					<p class="shop__info-title">Важная информация</p>
+					<div class="shop__info-content">
+						<div class="shop__info-text">
+							Ассортимент на сайте обновляется раз в неделю, в зависимости от наличия той или иной продукции. Учитывайте, что доставка осуществляется каждую пятницу (~субботу), все подробности на <a href="./delivery.html">странице доставки</a>
+							
+						</div>
+					</div>
+				</div>
+
+				<ul class="shop__menu">
+					<li  class="shop__tab shop-text active" data-f="all">Все</li>
+					<li  class="shop__tab shop-text" data-f="cheese">Сыр</li>
+					<li  class="shop__tab shop-text" data-f="butter">Масло</li>
+					<li  class="shop__tab shop-text" data-f="condiments">Приправы</li>
+					<!-- <li class="shop__tab shop-text">Разное</li> -->
+				</ul>
+
+				
+
+				<div class="shop__catalog">
+
+				</div>
+			</div>
+		</section>
+				
+				
+	</div>
+
+	@@include('./html/footer.html')
+	@@include('./html/cart.html')
+	@@include('./html/form-submit.html')
+
+	<script src="js/app.min.js"></script>
+</body>

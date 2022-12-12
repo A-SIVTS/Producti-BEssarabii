@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+	"title": "Сырная соль"
+})
+<body>
+	@@include('./html/modal-brk.html')
+	<div class="wrapper">
+		@@include('html/header.html')
+
+		<section class="product" id="10">
+
+
+			@@include('html/catalog-link.html')
+			
+
+			<img src="@img/cheese-salt.jpg" class='product__img' alt="Сырная соль">
+
+			<div class="product__container">
+		
+				
+
+				<div class="product__offer">
+					<h2 class="product__title title">Сырная соль</h2>
+					<div class="product-block">
+						<span class="product__title-price">Цена за 150 г - </span>
+						<span class="product__price"> 80 грн.</span>
+					</div>
+					@@include('html/order-info.html', {
+						'title': 'в наличии'
+					})
+					<p class="product__subtitle text-xl">Приправа " Сырная соль" - очень вкусная помощница на кухне. Использовать можно к любому блюду: в каши, в супы, в салаты, в омлет, в макарошки, в мясо и рыбу, в морепродукты...
+						Вообщем, всё , что нужно посолить, приобретёт яркий вкус и цвет.
+						Состав абсолютно  натурален:
+						- морская соль
+						- куркума
+						- смесь перцев
+						- сыр нескольких сортов).</p>
+				
+					<button class="product__btn link">Добавить в корзину</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="description">
+			<div class="description__container">
+				<div class="description__shelf-life shelf-life">
+					<h2 class="description__title title-l">Советы по хранению</h2>
+					<p class="description__subtitle text-xl">Срок храненя до 365 дней</p>
+					<p class="description__text text-xl">Сырную следует хранить при температуре +20 градусов по Цельсию.</p>
+				</div>
+
+				<div class="description__features features">
+					<h2 class="features__title title-l">Характеристики</h2>
+					<div class="features__body">
+						<div class="features__item">
+							<p class="features__item-title text-xl">Тип</p>
+							<p class="features__item-text text-xl">Приправа</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Срок хранения</p>
+							<p class="features__item-text text-xl">365 дней</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Страна производитель</p>
+							<p class="features__item-text text-xl">Украина</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+	
+	</div>
+
+	@@include('html/footer.html')
+	@@include('./html/cart.html')
+	@@include('./html/form-submit.html')
+	<script src="js/app.min.js"></script>
+
+	
+</body>
+</html>

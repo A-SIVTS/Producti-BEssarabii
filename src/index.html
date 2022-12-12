@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('./html/head.html', {
+	'title': 'Продукты Бессарабии'
+})
+<body>
+	@@include('./html/modal-brk.html')
+	<div class="wrapper">
+		@@include('./html/header.html')
+
+		<section class="offer">
+			<div class="offer__container">
+				<h1 class="title lng-h1">Продукты Бессарабии</h1>
+				<h2 class="offer__subtitle subtitle">Натуральный сыр, масло и другие молочные продукты по доступной цене.</h2>
+			</div>
+			<div class=" img-bg img-bg__container">
+				<img class="img-bg__img" src="@img/slide-4.jpg" alt="offer-slider">
+			</div>
+			
+		</section>
+
+		<section class="news">
+			<div class="news__container">
+				<h2 class="new__title title-xl">Новинки / Хиты продаж</h1>
+				<div class="news__products">
+					<a href='./gollandsky.html' class="news__item">
+						<img src="@img/gollandskiy.jpg" alt="голландский сыр" class="news__item-img">
+						<div class="news__item-body">
+							<h2 class="news__item-text text-xl">Сыр "Голландский"</h2>
+							<p class="news__item-price text-xl">33 грн. / 100 г</p>
+						</div>
+					</a>
+					<a href="./maslo-choko.html" class="news__item">
+						<img src="@img/choko-butter.jpg" alt="шоколадное масло" class="news__item-img">
+						<div class="news__item-body">
+							<h2 class="news__item-text text-xl">Масло "Шоколадное"</h2>
+							<p class="news__item-price text-xl">98 грн. / 250 г</p>
+						</div>
+					</a>
+				</div>
+				<div class="news__link">
+					<a href="shop.html" class="btn">В каталог</a>
+				</div>
+			</div>
+		</section>
+
+		<section class="benefits">
+			<div class="benefits__container">
+				<div class="benefits__offer">
+					<h2 class="title-xl">Высокое качество продукции</h2>
+					<h3 class="subtitle">Уже много лет мы сотрудничаем с фермерами, которые поставляют нам молоко. Каждые три месяца молоко проходит сертификацию на биохимический и бактериологический анализ. Поэтому мы  уверенно заявляем о  качестве нашей продукции. В результате сыр, масло, ряженка и вся продукция, которую мы изготавливаем является полностью натуральной, так еще и вкусной.</h3>
+				</div>
+
+				<div class="benefits__quality quality">
+					<img src="@img/analitics.svg" alt="img" class="quality__img">
+					
+					<div class="quality__content">
+						<p class="text-xl">Чтобы подверждать натуральность своего молока, мы проходим сертификацию каждые 3 месяца, получая соответсвующий документ.</p>
+						<div class="quality__btn-body">
+							<a href='@img/certificate_1.jpg' download class="quality__btn">скачать сертификат</a>
+						</div>
+					</div>
+					
+					
+					
+				</div>
+			</div>
+		</section>
+
+		
+	</div>
+
+	@@include('./html/footer.html')
+	@@include('./html/cart.html')
+	@@include('./html/form-submit.html')
+
+
+	<script src="js/app.min.js"></script>
+</body>
+</html>

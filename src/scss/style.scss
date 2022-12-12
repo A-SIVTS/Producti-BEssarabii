@@ -1,0 +1,42 @@
+@import "zero";
+@import "fonts";
+@import "constant";
+@import "plugins/modal";
+@import "components/header";
+@import "components/home/offer";
+@import "components/home/news-products";
+@import "components/home/benefits";
+@import "components/home/reviews";
+@import "components/footer";
+@import "components/shop/shop";
+@import "products/productPage";
+@import "components/cart.scss";
+@import "plugins/simplebar";
+@import "components/shop/ordering";
+@import "components/modal-brk";
+@import "components/delivery";
+@import "components/contacts";
+
+[class*="__container"] {
+  min-width: 320px;
+  margin: 0px auto;
+  padding: 0 10px;
+
+  @media(min-width: 30em){
+	min-width: 30em;
+	padding: 0 15px;
+  }
+}
+
+body {
+	height: 100%;
+  font-family: "OpenSans", sans-serif;
+  background-color: #FFFFFF;
+//   background-color: #ffffff;
+	.wrapper {
+		min-height: 100%;
+		@media(min-width: 768px){
+			display: none;
+		}
+	}
+}

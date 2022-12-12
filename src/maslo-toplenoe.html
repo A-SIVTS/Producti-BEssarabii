@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+@@include('html/head.html', {
+	"title": "Сыр Гауда"
+})
+<body>
+	@@include('./html/modal-brk.html')
+	<div class="wrapper">
+		@@include('html/header.html')
+
+		<section class="product" id="4">
+
+
+
+			@@include('html/catalog-link.html')
+		
+
+			<img src="@img/butter-toplenoe.jpg" class='product__img' alt="Сыр Гауда">
+
+			<div class="product__container">
+
+				<div class="product__offer">
+					<h2 class="product__title title">Масло "Топленое"</h2>
+					<div class="product-block">
+						<span class="product__title-price">Цена за 100 г - </span>
+						<span class="product__price"> 33 грн.</span>
+					</div>
+					@@include('html/order-info.html', {
+						'title': 'в наличии'
+					})
+					<p class="product__subtitle text-xl">Топленое масло — это чистый продукт топления сливочного масла по технологии тройной топки. Имеет золотистый цвет,приятный сливочно- ореховый запах и вкус с нежной текстурой.   Его широко используют в кулинарии, косметологии и даже в качестве домашнего лечебного средства. Может достаточно долго храниться.</p>
+
+					<button class="product__btn link">Добавить в корзину</button>
+				</div>
+			</div>
+		</section>
+
+		<section class="description">
+			<div class="description__container">
+				<div class="description__shelf-life shelf-life">
+					<h2 class="description__title title-l">Советы по хранению</h2>
+					<p class="description__subtitle text-xl">Срок храненя до 365 дней</p>
+					<p class="description__text text-xl">Топеное масло может хранится в течении года при температуре +5 градусов по Цельсию.</p>
+				</div>
+
+				<div class="description__features features">
+					<h2 class="features__title title-l">Характеристики</h2>
+					<div class="features__body">
+						<div class="features__item">
+							<p class="features__item-title text-xl">Тип</p>
+							<p class="features__item-text text-xl">Масло</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Молоко</p>
+							<p class="features__item-text text-xl">Коровье</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Жирность</p>
+							<p class="features__item-text text-xl">48%</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Срок хранения</p>
+							<p class="features__item-text text-xl">365 дней</p>
+						</div>
+						<div class="features__item">
+							<p class="features__item-title text-xl">Страна производитель</p>
+							<p class="features__item-text text-xl">Украина</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		
+	
+	</div>
+
+	@@include('html/footer.html')
+	@@include('./html/cart.html')
+	@@include('./html/form-submit.html')
+	<script src="js/app.min.js"></script>
+
+	
+</body>
+</html>

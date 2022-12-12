@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('./html/head.html', {
+	'title': 'Доставка и оплата'
+})
+<body>
+	@@include('./html/modal-brk.html')
+	<div class="wrapper">
+		@@include('./html/header.html')
+
+		<section class="delivery">
+			<div class="delivery__container">
+				<h2 class="delivery__title title-l">Доставка и Оплата</h2>
+				<p class="delivery__pay-title title-l">Стоимость Доставки</p>
+				<p class="delivery__pay-text text-xl">Стоимость адреcсной доставки за счёт компании - при самом первом заказе, а далее при корзине весом более одного килограмма.
+					При заказе весом менее одного килограмма стоимость адресcной доставки составляет - 40 грн.</p>
+
+				<h2 class="delivery__time-title title-l">Сроки Доставки</h2>
+				<p class="delivery__time-text text-xl">
+					Отправляем товар каждую пятницу (~субботу), заказы при этом принимаются на протяжении всей недели.
+				</p>
+
+				<p class="delivery__time-text text-xl">
+					После оформления заказа с вами свяжется наш консультант для согласования всех деталей. При необходимости, Вы можете обратиться по телефону: <a href="TEL:0675588735">+380(67)5588735</a>
+				</p>
+			</div>
+		</section>
+
+		
+	</div>
+
+	@@include('./html/footer.html')
+	@@include('./html/cart.html')
+	@@include('./html/form-submit.html')
+
+
+	<script src="js/app.min.js"></script>
+</body>
+</html>

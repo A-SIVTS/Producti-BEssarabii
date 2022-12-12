@@ -1,0 +1,145 @@
+.footer{
+	margin-top: 140px;
+	background-color: #ECECEC;
+	padding: 0 10px;
+
+	@media(min-width: 768px){
+		display: none;
+	}
+
+	.footer__logo {
+		width: 100px;
+		height: 100px;
+		margin-top: 60px;
+	}
+
+	.text-info {
+		margin-top: 20px;
+		width: 160px;
+	}
+
+	.footer__menu {
+		margin-top: 30px;
+		display: flex;
+		flex-direction: row;
+
+
+		.menu {
+			width: 50%;
+
+			.menu__title {
+				font-family: 'OpenSans';
+				font-style: normal;
+				font-weight: 600;
+				font-size: 16px;
+				line-height: 22px;
+				color: #2D2D2D;
+				margin-bottom: 26px;
+			}
+
+			.text-xl {
+				display: block;
+				margin-bottom: 10px;
+				cursor: pointer;
+			}
+
+			.text-xl:hover {
+				color: #8f6c53;
+				transition: all 0.3s ease-in;
+			}
+			.text-xl:last-child {
+				margin: 0;
+			}
+		}
+
+		
+		
+	}
+
+	.form {
+		padding-top: 30px;
+		display: none;
+
+		.form__title {
+			font-family: 'OpenSans';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 20px;
+			line-height: 27px;
+			display: flex;
+			align-items: center;
+			text-transform: capitalize;
+			color: #2D2D2D;
+		}
+
+		.form__input {
+			background-color: #ECECEC;
+			border-bottom: 1px solid #6D6D6D;
+			margin-top: 20px;
+			width: 240px;
+			font-family: 'IBM Plex Mono';
+			font-style: normal;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 21px;
+			color: rgba(45, 45, 45, 0.4);
+		}
+	}
+
+	.social-net{
+		margin-top: 30px;
+
+		.social-net__title {
+			font-family: 'OpenSans';
+			font-style: normal;
+			font-weight: 600;
+			font-size: 16px;
+			line-height: 22px;
+			color: #2D2D2D;
+			margin-bottom: 26px;
+		}
+
+		.social-net__icons {
+			display: flex;
+			flex-direction: row;
+			margin-top: 30px;
+
+			.social-net__link {
+
+				.social-net__icon {
+					width: 40px;
+					height: 40px;
+					margin-right: 10px;
+				}
+
+				
+			}
+		}
+	}
+
+	.privacy {
+
+		margin-top: 40px;
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+		padding-top: 10px;
+		padding-bottom: 40px;
+		border-top: 1px solid #2d2d2d;
+		
+		.text-xl{
+			display: block;
+		}
+
+		.sivts {
+			color: #8f6c53;
+			font-weight: 500;
+			text-transform: uppercase;
+		}
+
+		.sits:hover {
+			opacity: 0.7;
+			transition: all 0.5s ease-in;
+		}
+	}
+}
