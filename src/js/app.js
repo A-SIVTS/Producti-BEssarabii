@@ -1,5 +1,5 @@
 import './base.js'
-import './lang.js'
+
 
 import { shopItems } from './data.js'
 import './cart-modal.js'

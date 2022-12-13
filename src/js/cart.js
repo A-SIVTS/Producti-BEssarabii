@@ -60,8 +60,8 @@ addEventListener("DOMContentLoaded", () => {
   let productArray = [];
 
   const s_modal = $.modal({
-    title: "Данные успешно отправлены! Скоро с вами свяжется наш менеджер",
-    btnText: "На главную",
+    title: "Дані успішно відправлені! Скоро з вами зв'яжеться наш менеджер",
+    btnText: "На головну",
     href: "/",
   });
 
@@ -107,7 +107,7 @@ addEventListener("DOMContentLoaded", () => {
 
   /*-------------------------------------------------*/
 
-  const linkHost = "http://localhost:3000/shop.html";
+  const linkHost = "http://localhost:3002/shop.html";
   const linkPublik = "https://producti-bessarabii.com.ua/shop.html";
 
   if (window.location.href === linkPublik) {
@@ -165,7 +165,7 @@ addEventListener("DOMContentLoaded", () => {
 		 <img src="${img}" alt="">
 		<div class="ordering__product-content">
 			<p class="ordering__product-title">${title}</p>
-			<p class="ordering__product-weight">вес уточняется с менеджером</p>
+			<p class="ordering__product-weight">вага уточнюється з менеджером</p>
 		</div>
 	 	<p class="ordering__product-price">${price} ₴</p>
  	</li>
@@ -180,11 +180,11 @@ addEventListener("DOMContentLoaded", () => {
 	  		<div class="cart-product__text">
 		  		<h3 class="cart-product__title text-xl">${title}</h3>
 				<div class="cart-product__details">
-					<p class="cart-product__weight text-xl"><span>Вес</span>уточняется с менеджером</p>
+					<p class="cart-product__weight text-xl"><span>Вес</span>уточнюється з менеджером</p>
 				</div>
 	  		</div>
 			<div class='cart-product__footer'>
-				<button class="cart-product__delete text-xl">удалить</button>
+				<button class="cart-product__delete text-xl">видалити</button>
 				<span class="cart-product__price text-xl">${price} ₴</span>
 			</div>
 	  		
